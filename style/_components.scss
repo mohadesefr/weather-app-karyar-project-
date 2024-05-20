@@ -5,8 +5,11 @@
   padding: 8.5 * $spacer 7.25 * $spacer;
   overflow: hidden;
 
-  @media (max-width: 425px) {
+  @media (max-width: 580px) {
     padding: 4 * $spacer 2 * $spacer;
+  }
+  @media (min-width:1450px) {
+    padding: 15vw 15vw;
   }
 }
 
@@ -126,6 +129,7 @@
   @media (max-width: 988px) {
     flex-direction: column-reverse;
     margin-top: 2vh;
+    gap:0;
   }
   @media (max-width: 425px) {
     gap: 0;
@@ -215,7 +219,7 @@
     width: 25%;
     text-align: end;
     @media (max-width: 425px) {
-      width: auto;
+      width: 50px;
       font-size: $spacer * 1.75;
       line-height: 22px;
     }
@@ -238,7 +242,7 @@
     width: $spacer * 30;
     height: $spacer * 30;
 
-    @media (max-width: 425px) {
+    @media (max-width: 580px) {
       width: $spacer * 25;
       height: $spacer * 25;
     }
