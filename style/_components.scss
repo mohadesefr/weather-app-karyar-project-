@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   min-height: 100vh;
   padding: 8.5 * $spacer 7.25 * $spacer;
   overflow: hidden;
@@ -8,7 +8,7 @@
   @media (max-width: 580px) {
     padding: 4 * $spacer 2 * $spacer;
   }
-  @media (min-width:1450px) {
+  @media (min-width: 1450px) {
     padding: 15vw 15vw;
   }
 }
@@ -43,13 +43,9 @@
 .transparent-style {
   position: absolute;
   width: 1440px;
-  // height: 264.76px;
   left: 0px;
   top: 579.28px;
   bottom: 0;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   z-index: 0;
 }
 
@@ -66,21 +62,21 @@
   width: 1438.08px;
   height: 261.09px;
   bottom: 0;
+  left: 0;
 }
 
 .vector-3 {
   width: 1440px;
   height: 221.81px;
   position: absolute;
-
   bottom: 0;
+  left: 0;
 }
 
 .vector-4 {
   position: absolute;
   width: 1438.08px;
   height: 177.69px;
-  opacity: 30%;
   left: 0;
   bottom: 0;
 }
@@ -129,7 +125,7 @@
   @media (max-width: 988px) {
     flex-direction: column-reverse;
     margin-top: 2vh;
-    gap:0;
+    gap: 0;
   }
   @media (max-width: 425px) {
     gap: 0;
