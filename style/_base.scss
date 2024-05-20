@@ -1,0 +1,15 @@
+html,
+body {
+  font-family: $font_family;
+  font-style: normal;
+  font-size: 2.5 * $spacer;
+  color: $text-night;
+  @media (max-width: 425px) {
+    font-size: 2 * $spacer;
+  }
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}

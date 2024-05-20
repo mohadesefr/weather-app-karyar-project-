@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>weather app</title>
+  </head>
+  <body>
+    <main>
+      <section id="container" class="container">
+        
+        <div class="transparent-style">
+          <img src="assets/vectors/Vector1.png" class="vector-1" />
+          <img src="assets/vectors/Vector2.png" class="vector-2" />
+          <img src="assets/vectors/Vector3.png" class="vector-3" />
+          <img src="assets/vectors/Vector4.png" class="vector-4" />
+        </div>
+
+        <div class="location-date">
+          <div>
+            <p class="current-date"></p>
+          </div>
+
+          <div class="current-location">
+            <p id="city-name">تهران</p>
+            <img src="assets/map.png" />
+          </div>
+        </div>
+
+        <div class="forecast">
+          <div class="weather-week">
+            <div class="forecast-header">
+              <p>پیش‌بینی روزهای آینده</p>
+              <img src="assets/calendar.png" />
+            </div>
+
+            <div class="calender">
+              <!-- <div class="days-of-calender">
+                <div>
+                  <p class="temp">۱۱° حداقل</p>
+                  <p class="temp">۱۸° حداکثر</p>
+                </div>
+                <img src="assets/cloudy.png" />
+                <p>چهارشنبه</p>
+              </div> -->
+              <!-- <div class="line-break"></div> -->
+            </div>
+          </div>
+
+          <div class="temp-details">
+            <img
+              src=""
+              class="weather-icon"
+              alt="weather icon"
+            />
+            <div class="current-weather-details">
+              <div class="weather-description">
+                <p id="temp"></p>
+                <p id="weather-desc"></p>
+              </div>
+
+              <div class="temp-range">
+                <p id="min-temp">۱۷° حداقل</p>
+                <p id="max-temp">۲۱° حداکثر</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

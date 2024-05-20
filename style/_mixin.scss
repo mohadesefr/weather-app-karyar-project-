@@ -1,0 +1,6 @@
+@mixin flex($justify: space-between){
+    display: flex;
+  justify-content: $justify;
+  gap: $spacer;
+
+}
